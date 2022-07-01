@@ -22,6 +22,7 @@ const Navbar = () => {
           Login
         </li>
       </ul>
+      {/* For Mobile phone */}
       <div className="flex relative">
         {toggleMenu ? (
           <AiOutlineClose
